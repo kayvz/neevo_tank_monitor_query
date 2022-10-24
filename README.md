@@ -5,3 +5,7 @@ This simple script returns the tank monitor level from a propane tank setup in t
 The script is setup to return the tank level (e.g. "70" for 70% full).
 
 Have not tested the script on Neevo accounts with multiple tanks, etc.
+
+### Usage
+  bash script.sh $NEEVO_AUTHORIZATION
+
