@@ -4,7 +4,8 @@
 
 # ARG 1 - Nee-Vo Authorization (encoded HTTP BASIC AUTH username/password). e.g. see https://mixedanalytics.com/knowledge-base/api-connector-encode-credentials-to-base-64/
 
-if [[ "$1" == ""]] ; then
+if "$1" == ""
+then
    echo "Must pass in one argument: Neevo Authroization"
    exit
 fi
